@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import LandingPage from './features/home/LandingPage';
 import AboutPage from './features/about/AboutPage';
 import ContactPage from './features/contact/ContactPage';
@@ -8,7 +8,7 @@ import Footer from './components/layout/Footer';
 
 const App: React.FC = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="flex flex-col min-h-screen bg-white text-slate-800 font-body antialiased">
         <Header />
         <main className="flex-grow">
@@ -20,7 +20,7 @@ const App: React.FC = () => {
         </main>
         <Footer />
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
