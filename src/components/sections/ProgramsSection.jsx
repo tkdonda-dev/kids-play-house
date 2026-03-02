@@ -68,7 +68,7 @@ const ProgramsSection = () => {
                             </div>
                             <h3>{p.title}</h3>
                             <p>{p.desc}</p>
-                            <a href="#" className="learn-more">Learn More →</a>
+                            {/* <a href="#" className="learn-more">Learn More →</a> */}
                         </div>
                     ))}
                 </div>
