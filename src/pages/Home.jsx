@@ -9,8 +9,8 @@ import EventsSection from '../components/sections/EventsSection';
 import TeachersSection from '../components/sections/TeachersSection';
 import TestimonialsSection from '../components/sections/TestimonialsSection';
 import AdventureBannerSection from '../components/sections/AdventureBannerSection';
-import PromoBannerSection from '../components/sections/PromoBannerSection';
-import BlogSection from '../components/sections/BlogSection';
+// import PromoBannerSection from '../components/sections/PromoBannerSection';
+// import BlogSection from '../components/sections/BlogSection';
 import SideDecorations from '../components/sections/SideDecorations';
 import useScrollAnimations from '../hooks/useScrollAnimations';
 import useSmoothScroll from '../hooks/useSmoothScroll';
@@ -32,7 +32,7 @@ const Home = () => {
             <TeachersSection />
             <TestimonialsSection />
             <AdventureBannerSection />
-            <BlogSection />
+            {/* <BlogSection /> */}
         </div>
     );
 };

@@ -11,7 +11,7 @@ const SafePlaceSection = () => {
         <section className="safe-section">
             <div className="safe-inner">
                 {/* Left: Image */}
-                <div className="safe-image gsap-reveal" style={{ overflow: 'hidden', position: 'relative' }}>
+                <div className="gsap-reveal" style={{ overflow: 'hidden', position: 'relative' }}>
                     <img src="/img/about-boy.png" alt="Happy boy" style={{
                         width: '100%',
                         height: '100%',

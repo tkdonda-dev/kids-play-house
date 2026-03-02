@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import useScrollAnimations from '../../hooks/useScrollAnimations';
 
 const galleryImages = [
-    '/img/1.jpg',
-    '/img/2.jpg',
-    '/img/3.jpg',
-    '/img/4.jpg',
-    '/img/5.jpg',
-    '/img/6.jpg',
+    '/img/image-gallery-1.png',
+    '/img/image-gallery-2.png',
+    '/img/image-gallery-3.png',
+    '/img/image-gallery-1.png',
+    '/img/image-gallery-2.png',
+    '/img/image-gallery-3.png',
 ];
 
 const GallerySection = () => {

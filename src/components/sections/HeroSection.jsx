@@ -48,7 +48,7 @@ const HeroSection = () => {
                 {/* Right: Visual */}
                 <div className="hero-visual">
                     <div className="hero-visual-bg">
-                        <span className="hero-illustration">👧🏻</span>
+                        <img src="/img/hero-right.png" alt="Kid's Play House" className="hero-illustration" />
                     </div>
 
                     <div className="hero-badge hero-badge-1">

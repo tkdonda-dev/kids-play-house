@@ -11,7 +11,7 @@ const DreamsSection = () => {
             <div className="dreams-inner">
                 {/* Left: Image */}
                 <div className="dreams-image-wrap gsap-reveal">
-                    <div className="dreams-image-bg">
+                    <div>
                         <img src="/img/about-girl.png" alt="Happy child" className="dreams-image-transparent" />
                     </div>
                     <div className="dreams-badge">
